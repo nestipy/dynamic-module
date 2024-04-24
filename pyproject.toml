@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nestipy-dynamic-module"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["tsiresymila <tsiresymila@gmail.com>"]
 readme = "README.md"
@@ -9,7 +9,7 @@ packages = [{include = "nestipy_dynamic_module", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 nestipy-metadata = "^0.1.0"
-nestipy-ioc = "^0.1.0"
+nestipy-ioc = "^0.1.23"
 
 
 [build-system]
