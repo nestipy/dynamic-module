@@ -13,13 +13,13 @@ files = [
 
 [[package]]
 name = "nestipy-ioc"
-version = "0.1.23"
+version = "0.1.30"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "nestipy_ioc-0.1.23-py3-none-any.whl", hash = "sha256:3ec1216e9a8050a8588df8db6104361d2f31e32028a67158c0657470b7c24708"},
-    {file = "nestipy_ioc-0.1.23.tar.gz", hash = "sha256:8d06d74a74779b2218f9c01bc9a39e53460a292bdfcdf0d052968d1ba1f3db11"},
+    {file = "nestipy_ioc-0.1.30-py3-none-any.whl", hash = "sha256:8a2414f61a4bfc043b0d0f12bc4afe00486f6dc49456321dcdbe6a4db19ba278"},
+    {file = "nestipy_ioc-0.1.30.tar.gz", hash = "sha256:8d0dcdf46fbb1d0a7fd65bdd52dc1829fb0c323b5badb638bf3b81697d4d774e"},
 ]
 
 [package.dependencies]

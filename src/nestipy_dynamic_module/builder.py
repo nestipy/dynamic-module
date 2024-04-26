@@ -33,7 +33,8 @@ class ConfigurableModuleBuilder(Generic[T]):
             providers=provider + Reflect.get_metadata(obj, ModuleMetadata.Providers, []),
             exports=Reflect.get_metadata(obj, ModuleMetadata.Exports, []),
             imports=Reflect.get_metadata(obj, ModuleMetadata.Imports, []),
-            controllers=Reflect.get_metadata(obj, ModuleMetadata.Controllers, [])
+            controllers=Reflect.get_metadata(obj, ModuleMetadata.Controllers, []),
+            is_global=Reflect.get_metadata(obj, ModuleMetadata.Global, False)
         )
 
     def build(self):
