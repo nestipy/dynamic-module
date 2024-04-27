@@ -1,5 +1,5 @@
 import uuid
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import TypeVar, Generic, Optional, Any, Callable, Union, Type, Awaitable
 
 from nestipy_ioc import ModuleProviderDict
@@ -11,10 +11,10 @@ T = TypeVar('T')
 @dataclass
 class DynamicModule:
     module: Any
-    exports: list = None
-    imports: list = None
-    providers: list = None
-    controllers: list = None
+    exports: list = field(default_factory=lambda: [])
+    imports: list = field(default_factory=lambda: [])
+    providers: list = field(default_factory=lambda: [])
+    controllers: list = field(default_factory=lambda: [])
     is_global: bool = False
 
 

@@ -28,13 +28,13 @@ pydantic = ">=2.7.0,<3.0.0"
 
 [[package]]
 name = "nestipy-metadata"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "nestipy_metadata-0.1.0-py3-none-any.whl", hash = "sha256:66def338baca9a64ac58d5007778eb52111b22285cd8fc9df4938b36819554d4"},
-    {file = "nestipy_metadata-0.1.0.tar.gz", hash = "sha256:7ffd54e640f621f66c7638f68f1ac55695200ac2ff26e05d62183980833bb910"},
+    {file = "nestipy_metadata-0.1.1-py3-none-any.whl", hash = "sha256:4aa626b6135e41a48b00d02439b68df113d9f2cd93d7556e82b091d8fc311517"},
+    {file = "nestipy_metadata-0.1.1.tar.gz", hash = "sha256:e48d8a4ddb65c39e36b24852776a722d499efaf4dd3ff1cda3eb8fa0e3a6729b"},
 ]
 
 [[package]]
@@ -161,4 +161,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "cfa189a74e59f9f71180a1ec860c5c504620c9c71b2e33e47a139483364293f8"
+content-hash = "f229399da8af9566be56788cde9185c876a63df73bd6610fd851c4d308b1c50c"
