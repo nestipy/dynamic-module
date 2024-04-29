@@ -58,7 +58,7 @@ class ConfigurableModuleBuilder(Generic[T]):
 
         def register(cls_: Any, options: Optional[T], extras: dict = None) -> DynamicModule:
             if extras is not None:
-                self._extra = extras
+                self._extras = extras
             provider = ModuleProviderDict(
                 token=MODULE_OPTION_TOKEN,
                 value=options
@@ -75,7 +75,7 @@ class ConfigurableModuleBuilder(Generic[T]):
                 extras: dict = None
         ) -> DynamicModule:
             if extras is not None:
-                self._extra = extras
+                self._extras = extras
             provider = ModuleProviderDict(
                 token=MODULE_OPTION_TOKEN,
                 factory=factory,
