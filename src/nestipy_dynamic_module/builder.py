@@ -31,6 +31,7 @@ class ConfigurableModuleBuilder(Generic[T]):
     ):
         self._extras = extras
         self._extras_process_callback = extras_callback
+        return self
 
     def set_method(self, name: str):
         self._method_name = name
